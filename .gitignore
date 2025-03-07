@@ -1,0 +1,30 @@
+# Cabal build artifacts
+/dist-newstyle/
+cabal.project.local
+cabal.project.local.new
+
+# Pre-built executables (if they exist)
+*.hi
+*.o
+*.dyn_o
+*.dyn_hi
+
+# Temporary files from GHC
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.tix
+
+# OS-specific files (optional but good practice)
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files (optional)
+*.swp
+*~
+*.vscode/
+*.idea/
+
+# Stack files (only if you're mixing tools, which is rare but happens)
+.stack-work/

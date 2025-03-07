@@ -1,7 +1,9 @@
-main :: IO ()
-main = do 
-  let history = simulateTime initGlacier
-  writeFile "output.txt" (unlines (map prettyPrintGlacier history))
+module Glacier where
+
+-- main :: IO ()
+-- main = do 
+--   let history = simulateTime initGlacier
+--   writeFile "output.txt" (unlines (map prettyPrintGlacier history))
 
 type Position = Int  -- Index of the block in the glacier (optional but useful)
 
